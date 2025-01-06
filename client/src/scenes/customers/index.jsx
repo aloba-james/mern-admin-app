@@ -7,7 +7,6 @@ import { DataGrid } from "@mui/x-data-grid";
 const Custommers = () => {
   const theme = useTheme();
   const { data, isLoading } = useGetCustomersQuery();
-  console.log("🚀 ~ Custommers ~ data:", data);
 
   const columns = [
     {
